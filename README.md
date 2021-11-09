@@ -11,7 +11,7 @@ cd client
 npm i
 ```
 
-and run
+and run ( from root )
 
 ```
 npm run dev
