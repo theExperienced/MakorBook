@@ -9,7 +9,6 @@ const app = express();
 /////NODE WS
 
 const wss = new Server({ port: 3001 });
-console.log('🚀 ~ file: app.js ~ line 11 ~ wss');
 
 wss.on('connection', function connection(ws) {
   ws.on('message', function incoming(message) {
